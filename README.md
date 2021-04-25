@@ -31,14 +31,14 @@ The module was generated using [@nestjsplus/dyn-schematics](https://github.com/n
 ### Installation
 
 ```bash
-npm install nest-agenda
+npm i @suaveslow/nest-agenda
 ```
 
 ### Quick Start
 
 To configure Agenda, import the `AgendaModule` module using the familiar `register()` / `registerAsync()` pattern.
 
-Once configured, inject the `SINGLETON` knex api interface object into any service using the `AGENDA_INSTANCE` injection token.
+Once configured, inject the `SINGLETON` agenda api interface object into any service using the `AGENDA_INSTANCE` injection token.
 
 ```typescript
 // src/app.module.ts
